@@ -1,1 +1,1 @@
-# MacroKernel build system
+# macrokernel build system

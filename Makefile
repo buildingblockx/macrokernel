@@ -1,5 +1,5 @@
 export ROOTDIR = $(shell pwd)
-export IMAGE = MacroKernel
+export IMAGE = macrokernel
 export MAKE = make
 export ALL = all
 export CLEAN = clean
@@ -9,7 +9,7 @@ export CROSS_COMPILER =
 export CC = $(CROSS_COMPILER)gcc
 export CFLAGS := -g -I$(ROOTDIR)/include
 
-SUBDIRS = $(filter-out include/ architecture/, $(wildcard */))
+SUBDIRS = $(filter-out include/ tools/ architecture/, $(wildcard */))
 OBJS = $(shell find -name *.o)
 
 $(ALL): $(SUBDIRS)

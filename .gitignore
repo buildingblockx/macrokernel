@@ -1,0 +1,3 @@
+**/*.o
+**/macrokernel
+**/compile_commands.json
