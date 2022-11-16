@@ -1,0 +1,18 @@
+[submodule "include"]
+	path = include
+	url = https://github.com/buildingblockx/include.git
+[submodule "memblock"]
+	path = memory/allocator/memblock
+	url = https://github.com/buildingblockx/memblock.git
+[submodule "page"]
+	path = memory/allocator/page
+	url = https://github.com/buildingblockx/page.git
+[submodule "slabcache"]
+	path = memory/allocator/slabcache
+	url = https://github.com/buildingblockx/slabcache.git
+[submodule "kmalloc"]
+	path = memory/allocator/kmalloc
+	url = https://github.com/buildingblockx/kmalloc.git
+[submodule "tools"]
+	path = tools
+	url = https://github.com/buildingblockx/tools.git
